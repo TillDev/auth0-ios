@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		12353CC6206598980059D0A6 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12353CC5206598970059D0A6 /* Auth0.plist */; };
 		12A00D642064925F00F5ED0E /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; };
 		12A00D6620649A3E00F5ED0E /* user-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D6520649A3D00F5ED0E /* user-3.png */; };
 		12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */; };
@@ -41,7 +40,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 7;
 			files = (
 				120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */,
 			);
@@ -319,7 +318,6 @@
 				51E4B6B91D0B4819000D9038 /* Assets.xcassets in Resources */,
 				51E4B6B71D0B4819000D9038 /* Main.storyboard in Resources */,
 				12A00DC62064A79500F5ED0E /* equal.png in Resources */,
-				12353CC6206598980059D0A6 /* Auth0.plist in Resources */,
 				12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
