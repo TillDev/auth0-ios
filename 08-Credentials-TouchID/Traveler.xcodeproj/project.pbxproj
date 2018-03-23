@@ -216,7 +216,6 @@
 				120AD1DE20658F4E006C5C2C /* CopyFiles */,
 				51E4B6AC1D0B4819000D9038 /* Resources */,
 				DF7C5D2A2D00716A668992D7 /* [CP] Embed Pods Frameworks */,
-				6125419A6EE5EEFD05C7EF3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,21 +311,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6125419A6EE5EEFD05C7EF3F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Auth0.plist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traveler/Pods-Traveler-resources.sh\"\n";
-		};
 		DDE91141E5AF69DBD54C3ADA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
