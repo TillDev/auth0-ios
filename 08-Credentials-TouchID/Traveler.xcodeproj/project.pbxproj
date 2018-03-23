@@ -31,7 +31,7 @@
 		51E4B6BC1D0B4819000D9038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4B6BA1D0B4819000D9038 /* LaunchScreen.storyboard */; };
 		51F8D0A11D1DC3D800BA17B9 /* AlertController+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */; };
 		5B05D4AC1E439B51009D9955 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D4AB1E439B51009D9955 /* SessionManager.swift */; };
-		B609762B9FF77DC439CB6876 /* Pods_Auth0Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2EB6270495BB323C31DA44A /* Pods_Auth0Sample.framework */; };
+		B80E0E22A9C1B288C9315229 /* Pods_Traveler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA0BF1879C6FDDBF11EA2F9 /* Pods_Traveler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,16 +67,19 @@
 		12A00DD42064B8CC00F5ED0E /* ProfileItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileItemViewController.xib; sourceTree = "<group>"; };
 		12A00DD72064C72B00F5ED0E /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		51E4B6AE1D0B4819000D9038 /* Auth0Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auth0Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E4B6AE1D0B4819000D9038 /* Auth0Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Auth0Sample.app; path = Traveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4B6B11D0B4819000D9038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E4B6B61D0B4819000D9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51E4B6B81D0B4819000D9038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51E4B6BB1D0B4819000D9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51E4B6BD1D0B4819000D9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlertController+Loading.swift"; sourceTree = "<group>"; };
+		57BF9930129CBC73BB6BAA97 /* Pods-Traveler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traveler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Traveler/Pods-Traveler.debug.xcconfig"; sourceTree = "<group>"; };
 		5B05D4AB1E439B51009D9955 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 		86D9B8D3B7644A47C4D0D6DD /* Pods-Auth0Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth0Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B2EB6270495BB323C31DA44A /* Pods_Auth0Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth0Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BD892E7037BEF146943BCF /* Pods-Traveler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traveler.release.xcconfig"; path = "Pods/Target Support Files/Pods-Traveler/Pods-Traveler.release.xcconfig"; sourceTree = "<group>"; };
+		FCA0BF1879C6FDDBF11EA2F9 /* Pods_Traveler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traveler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B609762B9FF77DC439CB6876 /* Pods_Auth0Sample.framework in Frameworks */,
+				B80E0E22A9C1B288C9315229 /* Pods_Traveler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +147,7 @@
 		51E4B6A51D0B4819000D9038 = {
 			isa = PBXGroup;
 			children = (
-				51E4B6B01D0B4819000D9038 /* Auth0Sample */,
+				51E4B6B01D0B4819000D9038 /* Traveler */,
 				51E4B6AF1D0B4819000D9038 /* Products */,
 				D8B2AE085A5FD82D4E5E30C6 /* Pods */,
 				D35F8B59A9580CC28D035441 /* Frameworks */,
@@ -159,7 +162,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		51E4B6B01D0B4819000D9038 /* Auth0Sample */ = {
+		51E4B6B01D0B4819000D9038 /* Traveler */ = {
 			isa = PBXGroup;
 			children = (
 				12A00DCE2064B20400F5ED0E /* Profile */,
@@ -178,13 +181,14 @@
 				51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */,
 				5B05D4AB1E439B51009D9955 /* SessionManager.swift */,
 			);
-			path = Auth0Sample;
+			path = Traveler;
 			sourceTree = "<group>";
 		};
 		D35F8B59A9580CC28D035441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				B2EB6270495BB323C31DA44A /* Pods_Auth0Sample.framework */,
+				FCA0BF1879C6FDDBF11EA2F9 /* Pods_Traveler.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,6 +198,8 @@
 			children = (
 				86D9B8D3B7644A47C4D0D6DD /* Pods-Auth0Sample.debug.xcconfig */,
 				00E3E16A200CCBE5E7E79E1E /* Pods-Auth0Sample.release.xcconfig */,
+				57BF9930129CBC73BB6BAA97 /* Pods-Traveler.debug.xcconfig */,
+				D7BD892E7037BEF146943BCF /* Pods-Traveler.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -293,7 +299,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traveler/Pods-Traveler-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DDE91141E5AF69DBD54C3ADA /* [CP] Check Pods Manifest.lock */ = {
@@ -307,7 +313,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Auth0Sample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Traveler-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -320,7 +326,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Traveler/Pods-Traveler-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
@@ -335,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traveler/Pods-Traveler-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -428,11 +434,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -477,10 +484,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -488,7 +496,7 @@
 		};
 		51E4B6C11D0B4819000D9038 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86D9B8D3B7644A47C4D0D6DD /* Pods-Auth0Sample.debug.xcconfig */;
+			baseConfigurationReference = 57BF9930129CBC73BB6BAA97 /* Pods-Traveler.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -500,7 +508,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Auth0Sample",
 				);
-				INFOPLIST_FILE = Auth0Sample/Info.plist;
+				INFOPLIST_FILE = Traveler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tilldev.iOS.Traveler;
@@ -512,7 +520,7 @@
 		};
 		51E4B6C21D0B4819000D9038 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00E3E16A200CCBE5E7E79E1E /* Pods-Auth0Sample.release.xcconfig */;
+			baseConfigurationReference = D7BD892E7037BEF146943BCF /* Pods-Traveler.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -524,7 +532,7 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Auth0Sample",
 				);
-				INFOPLIST_FILE = Auth0Sample/Info.plist;
+				INFOPLIST_FILE = Traveler/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
