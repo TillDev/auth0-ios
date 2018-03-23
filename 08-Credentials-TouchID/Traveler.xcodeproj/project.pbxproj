@@ -41,7 +41,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 16;
 			files = (
 				120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */,
 			);
@@ -62,6 +62,7 @@
 /* Begin PBXFileReference section */
 		120AD1D920658C71006C5C2C /* Traveler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traveler.entitlements; sourceTree = "<group>"; };
 		12353CC5206598970059D0A6 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = SOURCE_ROOT; };
+		12353CC72065991E0059D0A6 /* Auth0 copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Auth0 copy.plist"; sourceTree = "<group>"; };
 		12A00D632064925F00F5ED0E /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = "<group>"; };
 		12A00D6520649A3D00F5ED0E /* user-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-3.png"; sourceTree = "<group>"; };
 		12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 		51E4B6A51D0B4819000D9038 = {
 			isa = PBXGroup;
 			children = (
+				12353CC72065991E0059D0A6 /* Auth0 copy.plist */,
 				51E4B6B01D0B4819000D9038 /* Traveler */,
 				51E4B6AF1D0B4819000D9038 /* Products */,
 				D8B2AE085A5FD82D4E5E30C6 /* Pods */,
@@ -224,11 +226,11 @@
 				DDE91141E5AF69DBD54C3ADA /* [CP] Check Pods Manifest.lock */,
 				51E4B6AA1D0B4819000D9038 /* Sources */,
 				51E4B6AB1D0B4819000D9038 /* Frameworks */,
+				120AD1DE20658F4E006C5C2C /* CopyFiles */,
 				51E4B6AC1D0B4819000D9038 /* Resources */,
 				12A00E51206503A500F5ED0E /* Embed Frameworks */,
 				DF7C5D2A2D00716A668992D7 /* [CP] Embed Pods Frameworks */,
 				6125419A6EE5EEFD05C7EF3F /* [CP] Copy Pods Resources */,
-				120AD1DE20658F4E006C5C2C /* CopyFiles */,
 			);
 			buildRules = (
 			);
