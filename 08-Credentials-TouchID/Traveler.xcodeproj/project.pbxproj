@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		12353CC6206598980059D0A6 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12353CC5206598970059D0A6 /* Auth0.plist */; };
 		12A00D642064925F00F5ED0E /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; };
 		12A00D6620649A3E00F5ED0E /* user-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D6520649A3D00F5ED0E /* user-3.png */; };
 		12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		120AD1D920658C71006C5C2C /* Traveler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traveler.entitlements; sourceTree = "<group>"; };
+		12353CC5206598970059D0A6 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = SOURCE_ROOT; };
 		12A00D632064925F00F5ED0E /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = "<group>"; };
 		12A00D6520649A3D00F5ED0E /* user-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-3.png"; sourceTree = "<group>"; };
 		12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 		51E4B6B01D0B4819000D9038 /* Traveler */ = {
 			isa = PBXGroup;
 			children = (
+				12353CC5206598970059D0A6 /* Auth0.plist */,
 				120AD1D920658C71006C5C2C /* Traveler.entitlements */,
 				12A00DCE2064B20400F5ED0E /* Profile */,
 				12A00DCB2064AEEC00F5ED0E /* TabBar */,
@@ -314,6 +317,7 @@
 				51E4B6B91D0B4819000D9038 /* Assets.xcassets in Resources */,
 				51E4B6B71D0B4819000D9038 /* Main.storyboard in Resources */,
 				12A00DC62064A79500F5ED0E /* equal.png in Resources */,
+				12353CC6206598980059D0A6 /* Auth0.plist in Resources */,
 				12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
