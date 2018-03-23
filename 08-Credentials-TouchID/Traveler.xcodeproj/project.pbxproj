@@ -40,7 +40,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 16;
 			files = (
 				12353CC820659C130059D0A6 /* Auth0.plist in CopyFiles */,
 			);
