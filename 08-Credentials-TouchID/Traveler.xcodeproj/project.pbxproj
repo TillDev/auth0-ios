@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		12A00D642064925F00F5ED0E /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; };
 		12A00D6620649A3E00F5ED0E /* user-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D6520649A3D00F5ED0E /* user-3.png */; };
 		12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */; };
@@ -35,6 +36,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		120AD1DE20658F4E006C5C2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				120AD1DF20658F61006C5C2C /* Auth0.plist in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12A00E51206503A500F5ED0E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +225,7 @@
 				12A00E51206503A500F5ED0E /* Embed Frameworks */,
 				DF7C5D2A2D00716A668992D7 /* [CP] Embed Pods Frameworks */,
 				6125419A6EE5EEFD05C7EF3F /* [CP] Copy Pods Resources */,
+				120AD1DE20658F4E006C5C2C /* CopyFiles */,
 			);
 			buildRules = (
 			);
