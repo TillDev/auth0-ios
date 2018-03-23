@@ -60,7 +60,7 @@
 
 /* Begin PBXFileReference section */
 		120AD1D920658C71006C5C2C /* Traveler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traveler.entitlements; sourceTree = "<group>"; };
-		12A00D632064925F00F5ED0E /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		12A00D632064925F00F5ED0E /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Auth0.plist; sourceTree = "<group>"; };
 		12A00D6520649A3D00F5ED0E /* user-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-3.png"; sourceTree = "<group>"; };
 		12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
 		12A00DA72064A62D00F5ED0E /* ImageExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageExampleTableViewCell.xib; sourceTree = "<group>"; };
@@ -106,6 +106,7 @@
 		12A00D8A2064A26300F5ED0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				12A00D632064925F00F5ED0E /* Auth0.plist */,
 				12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */,
 			);
 			path = Resources;
@@ -179,7 +180,6 @@
 				12A00DCB2064AEEC00F5ED0E /* TabBar */,
 				12A00D8D2064A5D000F5ED0E /* Messages */,
 				12A00D8A2064A26300F5ED0E /* Resources */,
-				12A00D632064925F00F5ED0E /* Auth0.plist */,
 				51E4B6B11D0B4819000D9038 /* AppDelegate.swift */,
 				51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */,
 				51E4B6B51D0B4819000D9038 /* Main.storyboard */,
@@ -470,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -522,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -538,6 +538,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = Traveler/Traveler.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -548,7 +549,7 @@
 					"$(PROJECT_DIR)/Traveler",
 				);
 				INFOPLIST_FILE = Traveler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tilldev.iOS.Traveler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -563,6 +564,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = Traveler/Traveler.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -573,7 +575,7 @@
 					"$(PROJECT_DIR)/Auth0Sample",
 				);
 				INFOPLIST_FILE = Traveler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tilldev.iOS.Traveler;
