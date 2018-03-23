@@ -31,6 +31,10 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        self.checkToken()
+    }
+    
     // MARK: - IBAction
 
     @IBAction func showLoginController(_ sender: UIButton) {

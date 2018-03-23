@@ -7,22 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A00D642064925F00F5ED0E /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D632064925F00F5ED0E /* Auth0.plist */; };
+		12A00D6620649A3E00F5ED0E /* user-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D6520649A3D00F5ED0E /* user-3.png */; };
+		12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */; };
+		12A00DBF2064A62F00F5ED0E /* ImageExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DA72064A62D00F5ED0E /* ImageExampleTableViewCell.xib */; };
+		12A00DC02064A62F00F5ED0E /* BaseExampleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DA82064A62D00F5ED0E /* BaseExampleTableViewCell.xib */; };
+		12A00DC12064A62F00F5ED0E /* ExampleTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DA92064A62E00F5ED0E /* ExampleTableViewCells.swift */; };
+		12A00DC22064A62F00F5ED0E /* SpruceTableViewControllerExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DAA2064A62E00F5ED0E /* SpruceTableViewControllerExample.xib */; };
+		12A00DC32064A62F00F5ED0E /* SpruceTableViewControllerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DAB2064A62F00F5ED0E /* SpruceTableViewControllerExample.swift */; };
+		12A00DC62064A79500F5ED0E /* equal.png in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DC52064A79500F5ED0E /* equal.png */; };
+		12A00DC82064A91900F5ED0E /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DC72064A91900F5ED0E /* ExampleViewController.swift */; };
+		12A00DCA2064AA4500F5ED0E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DC92064AA4500F5ED0E /* Theme.swift */; };
+		12A00DCD2064AF3C00F5ED0E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DCC2064AF3C00F5ED0E /* TabBarViewController.swift */; };
+		12A00DD12064B23500F5ED0E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DCF2064B23500F5ED0E /* ProfileViewController.swift */; };
+		12A00DD22064B23500F5ED0E /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DD02064B23500F5ED0E /* ProfileViewController.xib */; };
+		12A00DD52064B8CC00F5ED0E /* ProfileItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DD32064B8CC00F5ED0E /* ProfileItemViewController.swift */; };
+		12A00DD62064B8CC00F5ED0E /* ProfileItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A00DD42064B8CC00F5ED0E /* ProfileItemViewController.xib */; };
+		12A00DD82064C72B00F5ED0E /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A00DD72064C72B00F5ED0E /* MessageModel.swift */; };
 		51A8A0B81D0B4C07000E53CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */; };
-		51A8A0BA1D0B4C0C000E53CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A8A0B91D0B4C0C000E53CC /* ProfileViewController.swift */; };
 		51E4B6B21D0B4819000D9038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E4B6B11D0B4819000D9038 /* AppDelegate.swift */; };
 		51E4B6B71D0B4819000D9038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4B6B51D0B4819000D9038 /* Main.storyboard */; };
 		51E4B6B91D0B4819000D9038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51E4B6B81D0B4819000D9038 /* Assets.xcassets */; };
 		51E4B6BC1D0B4819000D9038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E4B6BA1D0B4819000D9038 /* LaunchScreen.storyboard */; };
 		51F8D0A11D1DC3D800BA17B9 /* AlertController+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */; };
 		5B05D4AC1E439B51009D9955 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D4AB1E439B51009D9955 /* SessionManager.swift */; };
-		5F699A091DAFD9EC007D51F3 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F699A081DAFD9EC007D51F3 /* Auth0.plist */; };
 		A9956886EBED5387B69F6CA3 /* Pods_Auth0Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941F4E207A9ACAC7CEF391FC /* Pods_Auth0Sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A00D632064925F00F5ED0E /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		12A00D6520649A3D00F5ED0E /* user-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-3.png"; sourceTree = "<group>"; };
+		12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		12A00DA72064A62D00F5ED0E /* ImageExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageExampleTableViewCell.xib; sourceTree = "<group>"; };
+		12A00DA82064A62D00F5ED0E /* BaseExampleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseExampleTableViewCell.xib; sourceTree = "<group>"; };
+		12A00DA92064A62E00F5ED0E /* ExampleTableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewCells.swift; sourceTree = "<group>"; };
+		12A00DAA2064A62E00F5ED0E /* SpruceTableViewControllerExample.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpruceTableViewControllerExample.xib; sourceTree = "<group>"; };
+		12A00DAB2064A62F00F5ED0E /* SpruceTableViewControllerExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpruceTableViewControllerExample.swift; sourceTree = "<group>"; };
+		12A00DC52064A79500F5ED0E /* equal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equal.png; sourceTree = "<group>"; };
+		12A00DC72064A91900F5ED0E /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		12A00DC92064AA4500F5ED0E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		12A00DCC2064AF3C00F5ED0E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		12A00DCF2064B23500F5ED0E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		12A00DD02064B23500F5ED0E /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		12A00DD32064B8CC00F5ED0E /* ProfileItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItemViewController.swift; sourceTree = "<group>"; };
+		12A00DD42064B8CC00F5ED0E /* ProfileItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileItemViewController.xib; sourceTree = "<group>"; };
+		12A00DD72064C72B00F5ED0E /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		1A97BB270D2AB3E78A76FC86 /* Pods-Auth0Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth0Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample.release.xcconfig"; sourceTree = "<group>"; };
 		51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		51A8A0B91D0B4C0C000E53CC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		51E4B6AE1D0B4819000D9038 /* Auth0Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auth0Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E4B6B11D0B4819000D9038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51E4B6B61D0B4819000D9038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +62,6 @@
 		51E4B6BD1D0B4819000D9038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlertController+Loading.swift"; sourceTree = "<group>"; };
 		5B05D4AB1E439B51009D9955 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		5F699A081DAFD9EC007D51F3 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		93FC4714BD1EE0D00B8D705B /* Pods-Auth0Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Auth0Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		941F4E207A9ACAC7CEF391FC /* Pods_Auth0Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Auth0Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,6 +78,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12A00D8A2064A26300F5ED0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12A00D8B2064A26300F5ED0E /* ToolsAnimation.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		12A00D8D2064A5D000F5ED0E /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				12A00DC92064AA4500F5ED0E /* Theme.swift */,
+				12A00DC42064A63E00F5ED0E /* NIBs */,
+				12A00DA92064A62E00F5ED0E /* ExampleTableViewCells.swift */,
+				12A00DAB2064A62F00F5ED0E /* SpruceTableViewControllerExample.swift */,
+				12A00DC72064A91900F5ED0E /* ExampleViewController.swift */,
+				12A00DD72064C72B00F5ED0E /* MessageModel.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		12A00DC42064A63E00F5ED0E /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				12A00DA82064A62D00F5ED0E /* BaseExampleTableViewCell.xib */,
+				12A00DA72064A62D00F5ED0E /* ImageExampleTableViewCell.xib */,
+				12A00DAA2064A62E00F5ED0E /* SpruceTableViewControllerExample.xib */,
+			);
+			path = NIBs;
+			sourceTree = "<group>";
+		};
+		12A00DCB2064AEEC00F5ED0E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				12A00DCC2064AF3C00F5ED0E /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		12A00DCE2064B20400F5ED0E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				12A00DCF2064B23500F5ED0E /* ProfileViewController.swift */,
+				12A00DD02064B23500F5ED0E /* ProfileViewController.xib */,
+				12A00DD32064B8CC00F5ED0E /* ProfileItemViewController.swift */,
+				12A00DD42064B8CC00F5ED0E /* ProfileItemViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		153A478119BD6A1FF703785B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,12 +166,17 @@
 		51E4B6B01D0B4819000D9038 /* Auth0Sample */ = {
 			isa = PBXGroup;
 			children = (
-				5F699A081DAFD9EC007D51F3 /* Auth0.plist */,
+				12A00DCE2064B20400F5ED0E /* Profile */,
+				12A00DCB2064AEEC00F5ED0E /* TabBar */,
+				12A00D8D2064A5D000F5ED0E /* Messages */,
+				12A00D8A2064A26300F5ED0E /* Resources */,
+				12A00D632064925F00F5ED0E /* Auth0.plist */,
 				51E4B6B11D0B4819000D9038 /* AppDelegate.swift */,
 				51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */,
-				51A8A0B91D0B4C0C000E53CC /* ProfileViewController.swift */,
 				51E4B6B51D0B4819000D9038 /* Main.storyboard */,
 				51E4B6B81D0B4819000D9038 /* Assets.xcassets */,
+				12A00DC52064A79500F5ED0E /* equal.png */,
+				12A00D6520649A3D00F5ED0E /* user-3.png */,
 				51E4B6BA1D0B4819000D9038 /* LaunchScreen.storyboard */,
 				51E4B6BD1D0B4819000D9038 /* Info.plist */,
 				51F8D0A01D1DC3D800BA17B9 /* AlertController+Loading.swift */,
@@ -135,7 +220,7 @@
 				TargetAttributes = {
 					51E4B6AD1D0B4819000D9038 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 2NUJ273DRF;
+						DevelopmentTeam = H7ACR4JM8M;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -163,10 +248,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A00DC22064A62F00F5ED0E /* SpruceTableViewControllerExample.xib in Resources */,
+				12A00DD62064B8CC00F5ED0E /* ProfileItemViewController.xib in Resources */,
+				12A00DBF2064A62F00F5ED0E /* ImageExampleTableViewCell.xib in Resources */,
+				12A00D6620649A3E00F5ED0E /* user-3.png in Resources */,
+				12A00D642064925F00F5ED0E /* Auth0.plist in Resources */,
+				12A00DC02064A62F00F5ED0E /* BaseExampleTableViewCell.xib in Resources */,
+				12A00DD22064B23500F5ED0E /* ProfileViewController.xib in Resources */,
 				51E4B6BC1D0B4819000D9038 /* LaunchScreen.storyboard in Resources */,
 				51E4B6B91D0B4819000D9038 /* Assets.xcassets in Resources */,
 				51E4B6B71D0B4819000D9038 /* Main.storyboard in Resources */,
-				5F699A091DAFD9EC007D51F3 /* Auth0.plist in Resources */,
+				12A00DC62064A79500F5ED0E /* equal.png in Resources */,
+				12A00D8C2064A26400F5ED0E /* ToolsAnimation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,12 +274,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Auth0Sample/Pods-Auth0Sample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/Spruce/Spruce.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spruce.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -233,10 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A00DCA2064AA4500F5ED0E /* Theme.swift in Sources */,
 				51E4B6B21D0B4819000D9038 /* AppDelegate.swift in Sources */,
+				12A00DC82064A91900F5ED0E /* ExampleViewController.swift in Sources */,
 				51F8D0A11D1DC3D800BA17B9 /* AlertController+Loading.swift in Sources */,
-				51A8A0BA1D0B4C0C000E53CC /* ProfileViewController.swift in Sources */,
+				12A00DC12064A62F00F5ED0E /* ExampleTableViewCells.swift in Sources */,
+				12A00DC32064A62F00F5ED0E /* SpruceTableViewControllerExample.swift in Sources */,
+				12A00DD12064B23500F5ED0E /* ProfileViewController.swift in Sources */,
+				12A00DD82064C72B00F5ED0E /* MessageModel.swift in Sources */,
+				12A00DD52064B8CC00F5ED0E /* ProfileItemViewController.swift in Sources */,
 				5B05D4AC1E439B51009D9955 /* SessionManager.swift in Sources */,
+				12A00DCD2064AF3C00F5ED0E /* TabBarViewController.swift in Sources */,
 				51A8A0B81D0B4C07000E53CC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,11 +474,11 @@
 			baseConfigurationReference = 93FC4714BD1EE0D00B8D705B /* Pods-Auth0Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NUJ273DRF;
+				DEVELOPMENT_TEAM = H7ACR4JM8M;
 				INFOPLIST_FILE = Auth0Sample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = auth0.samples.Auth0Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tilldev.iOS.Traveler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -385,11 +489,11 @@
 			baseConfigurationReference = 1A97BB270D2AB3E78A76FC86 /* Pods-Auth0Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2NUJ273DRF;
+				DEVELOPMENT_TEAM = H7ACR4JM8M;
 				INFOPLIST_FILE = Auth0Sample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = auth0.samples.Auth0Sample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tilldev.iOS.Traveler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
