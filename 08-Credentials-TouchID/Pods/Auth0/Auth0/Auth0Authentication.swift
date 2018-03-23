@@ -190,7 +190,7 @@ struct Auth0Authentication: Authentication {
         return Request(session: session, url: oauthToken, method: "POST", handle: noBody, payload: payload, logger: self.logger, telemetry: self.telemetry)
     }
 
-    func delegation(withParameters parameters: [String : Any]) -> Request<[String : Any], AuthenticationError> {
+    func delegation(withParameters parameters: [String: Any]) -> Request<[String: Any], AuthenticationError> {
         var payload: [String: Any] = [
             "client_id": self.clientId,
             "grant_type": "urn:ietf:params:oauth:grant-type:jwt-bearer"
@@ -200,12 +200,12 @@ struct Auth0Authentication: Authentication {
         return Request(session: session, url: delegation, method: "POST", handle: plainJson, payload: payload, logger: self.logger, telemetry: self.telemetry)
     }
 
-#if os(iOS)
+    #if os(iOS)
     func webAuth(withConnection connection: String) -> WebAuth {
         var safari = SafariWebAuth(clientId: self.clientId, url: self.url, presenter: ControllerModalPresenter(), telemetry: self.telemetry)
         return safari
             .logging(enabled: self.logger != nil)
             .connection(connection)
     }
-#endif
+    #endif
 }

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Auth0Sample.xcodeproj">
+      location = "group:/Users/andretill/DEVELOPER/Mac/auth0-ios-swift-sample/08-Credentials-TouchID/Traveler.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

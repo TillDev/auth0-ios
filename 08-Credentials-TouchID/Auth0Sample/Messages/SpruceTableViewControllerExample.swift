@@ -72,7 +72,7 @@ extension SpruceTableViewControllerExample: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "imageCell", for: indexPath)
         if let cell = cell as? ImageExampleTableViewCell {
-            let msg = iconColors[indexPath.item] as! Message
+            let msg = iconColors[indexPath.item]
             cell.iconView.backgroundColor = msg.color
             let inits = (msg.author.split(separator: " ").first?.first?.description)! + (msg.author.split(separator: " ").last?.first?.description)!
             cell.l_initials.text = inits
